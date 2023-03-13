@@ -1,0 +1,4 @@
+decrypt:
+  DB_HOST: postgresql:5432
+  DB_USER: postgres
+  DB_PASS: AES256:M2hLbaafTNvC5sNz9m58d4gH7pSFHB2ilVPScw2QS57Cd0/vrO+WR/nbkYUl/Nvh

@@ -1,0 +1,12 @@
+AESKey: bfc9cee25938d0f7f217b717
+contour: test
+
+encrypt:
+  key1: value1
+  key2: value2
+  key3: value3
+
+decrypt:
+  key1: 0ebxEl0zHruF4/bwup739KOXhqLKk/o47quuthoDwCQ=
+  key2: test:AES256:8FFxWu3QC2rxuuz8RT8qvXVzpKFSe2D1dJVo1SeB4mo=
+  key3: test:AES256:6zvZHud/3t9x+r7OVFM0+7SHBFNx5Ej6CPSjNmc15Rw=

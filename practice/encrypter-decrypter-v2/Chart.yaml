@@ -1,0 +1,6 @@
+apiVersion: v2
+name: encrypter-decrypter
+version: 0.0.2
+description: encrypter-decrypter utility сhart
+type: application
+appVersion: auto

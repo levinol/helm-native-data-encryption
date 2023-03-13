@@ -1,0 +1,10 @@
+{{/* Обращаемся к глобальным переменным и учитываем, что их могут не передать */}}
+{{- $globalAESKey := ((.Values.global).AESKey) -}}
+{{- $globalContour := ((.Values.global).contour) -}}
+{{- $AESKey := $globalAESKey | default .Values.AESKey -}}
+{{- $Contour := $globalContour | default .Values.contour -}}
+
+ENCRYPTED: VALUES
+{{- include "encrypter" (list $AESKey $Contour .Values.encrypt) }}
+DECRYPTED: VALUES
+{{- include "decrypter" (list $AESKey $Contour .Values.decrypt) }}

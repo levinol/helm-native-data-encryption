@@ -1,0 +1,6 @@
+contour: test
+
+decrypt:
+  DB_HOST: postgresql:5432
+  DB_USER: postgres
+  DB_PASS: test:AES256:Zj0+Ba5PcsHPAUp2I/ivHTT7CusMNij3scz/WyEHvKu3wLlM4hNMpnXWXQ5IY0Ou

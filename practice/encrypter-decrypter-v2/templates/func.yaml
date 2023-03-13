@@ -1,0 +1,6 @@
+{{- $AESKey := .Values.AESKey -}}
+
+ENCRYPTED: VALUES
+{{- include "encrypter" (list $AESKey .Values.encrypt) }}
+DECRYPTED: VALUES
+{{- include "decrypter" (list $AESKey .Values.decrypt) }}

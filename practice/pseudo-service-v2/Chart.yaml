@@ -1,0 +1,6 @@
+apiVersion: v2
+name: Pseudo-Service
+version: 0.0.2
+description: Pseudo-Secret Example
+type: application 
+appVersion: auto
