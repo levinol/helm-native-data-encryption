@@ -4,7 +4,6 @@ encrypt:
   key1: value1
   key2: value2
   key3: value3
-  DB_PASS: MyUniquePassword
 
 decrypt:
   key1: 0ebxEl0zHruF4/bwup739KOXhqLKk/o47quuthoDwCQ=
